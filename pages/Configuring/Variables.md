@@ -484,6 +484,7 @@ Subcategory `render:`_
 | cm_fs_passthrough | Passthrough color settings for fullscreen apps when possible. 0 - off, 1 - always, 2 - hdr only | int | 2 |
 | cm_enabled | Whether the color management pipeline should be enabled or not (requires a restart of Hyprland to fully take effect) | bool | true |
 | send_content_type | Report content type to allow monitor profile autoswitch (may result in a black screen during the switch) | bool | true |
+| cm_auto_hdr | Auto-switch to hdr mode when fullscreen app is in hdr, 0 - off, 1 - hdr, 2 - hdredid (cm_fs_passthrough can switch to hdr even when this setting is off) | 1 |
 
 ### Cursor
 
